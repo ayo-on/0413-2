@@ -1,6 +1,14 @@
-h1, h3 {
-    background-color:#101010;
-    color: yellow;
-    margin-left:50px;
-    width: 200px;
-    font-size: 20px;}
+body { color: green; }
+.rightToLeft { direction: rtl; }
+.incLetterSpacing { letter-spacing: 10px; }
+#heading {
+    color: sandybrown;
+    text-decoration: line-through;
+}
+input[type="text"] {
+    width: 150px;
+    display: block;
+    background-color: #FFEFD5;
+    margin-bottom: 10px;
+}
+p.dotted {border-style: dotted;}
